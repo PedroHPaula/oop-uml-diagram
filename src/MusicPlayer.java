@@ -1,2 +1,7 @@
-package PACKAGE_NAME;public interface MusicPlayer {
+public interface MusicPlayer {
+    void play();
+
+    void pause();
+
+    void selectMusic(String name);
 }
